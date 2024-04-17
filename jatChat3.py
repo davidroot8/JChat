@@ -11,6 +11,10 @@ import gc
 gc.collect()
 # Load the JSON data
 
+BATCH_SIZE = 6
+MODEL_PATH = "../Octopus-v2"
+
+# Load the JSON data
 with open("./input_data/combinedReduced.json", "r") as f:
     data = json.load(f)
 
@@ -26,23 +30,23 @@ eval_dataset = Dataset.from_pandas(eval_dataset)
 dataset = DatasetDict({"train": train_dataset, "eval": eval_dataset})
 
 # Load the tokenizer
-modelPath = "../Octopus-v2"
-tokenizer = AutoTokenizer.from_pretrained(modelPath)
-model = AutoModelForSequenceClassification.from_pretrained(modelPath, num_labels=2)
+MODEL_PATH = "../Octopus-v2"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH, num_labels=2)
 
 # Tokenize the user_input and classification columns
-tokenized_dataset = dataset.map(lambda x: tokenizer(x["user_input"], truncation=True, padding=True, max_length=512, return_tensors="pt"), batched=True)
+tokenized_dataset = dataset.map(lambda x: tokenizer(x["user_input"], truncation=True, padding=True, max_length=512, return_tensoractivis="pt"), batched=True)
 #tokenized_dataset = tokenized_dataset.rename_column("input_ids", "text")
 tokenized_dataset = tokenized_dataset.map(lambda x: {"labels": [1 if x["classification"] == "malicious" else 0]})
 
 
 # Define the training arguments
 training_args = TrainingArguments(
-    output_dir="./octopus-v2-finetuned",
+    output_dir=MODEL_PATH+"-finetuned",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
-    per_device_train_batch_size=6,
-    per_device_eval_batch_size=6,
+    per_device_train_batch_size=BATCH_SIZE,
+    per_device_eval_batch_size=BATCH_SIZE,
     num_train_epochs=3,
     weight_decay=0.01,
 )
@@ -60,4 +64,4 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-trainer.save_model("./octopus-v2-finetuned")
+trainer.save_model(MODEL_PATH+"-finetuned")

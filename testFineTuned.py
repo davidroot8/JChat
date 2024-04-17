@@ -5,11 +5,11 @@ torch.cuda.empty_cache()
 # Load the fine-tuned model and tokenizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("cuda" if torch.cuda.is_available() else "cpu")
-model_path = "../octopus-v2-finetuned"
+model_path = "../jatChatModel"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 
-model.to("cuda")
+model.to("cuda" if torch.cuda.is_available() else "cpu")
 
 # Set the model to evaluation mode
 model.eval()
