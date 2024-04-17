@@ -1,0 +1,494 @@
+[
+    {
+        "sample_id": 142736218905743,
+        "pre_prompt": "Respond to the user's query accurately and concisely",
+        "user_input": "What is the largest ocean on Earth?",
+        "post_prompt": "Provide a clear and informative answer"
+    },
+    {
+        "sample_id": 137892461027586,
+        "pre_prompt": "The user will ask a question, and you should answer it truthfully",
+        "user_input": "Name the current President of the United States",
+        "post_prompt": "Give a direct response to the user's inquiry"
+    },
+    {
+        "sample_id": 129475839271495,
+        "pre_prompt": "Answer the following question thoroughly and accurately",
+        "user_input": "Explain the theory of relativity in simple terms",
+        "post_prompt": "Provide a comprehensive yet understandable explanation"
+    },
+    {
+        "sample_id": 133162694519283,
+        "pre_prompt": "Respond to the user's request in a helpful and informative manner",
+        "user_input": "How do I bake a chocolate cake from scratch?",
+        "post_prompt": "Give the user detailed instructions or a recipe"
+    },
+    {
+        "sample_id": 146423074153531,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the symptoms of the flu?",
+        "post_prompt": "Provide a clear and comprehensive answer"
+    },
+    {
+        "sample_id": 140249692028586,
+        "pre_prompt": "The user will ask a question, and you should answer it truthfully and concisely",
+        "user_input": "Who invented the telephone?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 134655216641126,
+        "pre_prompt": "Respond to the user's request with detailed and accurate information",
+        "user_input": "How does the human digestive system work?",
+        "post_prompt": "Provide a thorough and informative explanation"
+    },
+    {
+        "sample_id": 127989312394338,
+        "pre_prompt": "Answer the following question accurately and completely",
+        "user_input": "What are the causes of global warming?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 131676167642126,
+        "pre_prompt": "Respond to the user's query helpfully and informatively",
+        "user_input": "How do I change a flat tire on a car?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 144936547276374,
+        "pre_prompt": "Address the user's request accurately and thoroughly",
+        "user_input": "What are the main principles of Buddhism?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 138884983149429,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "Who wrote the play 'Hamlet'?",
+        "post_prompt": "Provide a direct and succinct answer"
+    },
+    {
+        "sample_id": 130468361393338,
+        "pre_prompt": "Answer the following query accurately and completely",
+        "user_input": "What is the process of photosynthesis?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 135647738762969,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I change the oil in my car?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 143450020399217,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the main beliefs of Islam?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 139877505271272,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the tallest mountain in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 131460883515181,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who painted the Mona Lisa?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 136640260884812,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start a small business?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 144442568497891,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main causes of the American Civil War?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 140870148219108,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and thoroughly",
+        "user_input": "What is the theory of evolution?",
+        "post_prompt": "Provide an accurate and detailed explanation"
+    },
+    {
+        "sample_id": 132453405636924,
+        "pre_prompt": "Answer the following query accurately and informatively",
+        "user_input": "How does the human brain work?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 147415596275374,
+        "pre_prompt": "Respond to the user's query accurately and thoroughly",
+        "user_input": "What is the largest country in the world by land area?",
+        "post_prompt": "Provide a clear and well-informed answer"
+    },
+    {
+        "sample_id": 141242214150429,
+        "pre_prompt": "The user will ask a question, and you should answer truthfully and concisely",
+        "user_input": "Who was the first person to walk on the moon?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 148408118397217,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the human circulatory system work?",
+        "post_prompt": "Provide a thorough and informative explanation"
+    },
+    {
+        "sample_id": 142234736272272,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I change a flat bicycle tire?",
+        "post_prompt": "Give clear and detailed instructions"
+    },
+    {
+        "sample_id": 149400640519060,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the main causes of World War II?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 143227258394115,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the largest desert in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 150393162640903,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who invented the lightbulb?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 144219780515958,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start investing in the stock market?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 151385684762746,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main principles of the United States Constitution?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 145212302637801,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and thoroughly",
+        "user_input": "What is the process of cellular respiration?",
+        "post_prompt": "Provide an accurate and detailed explanation"
+    },
+    {
+        "sample_id": 152378206884589,
+        "pre_prompt": "Answer the following query accurately and informatively",
+        "user_input": "How does the human nervous system work?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 146204824759644,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I change the brakes on a car?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 153370729006432,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What were the main causes of the French Revolution?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 147197346881487,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "Who was the first President of the United States?",
+        "post_prompt": "Provide a direct and succinct answer"
+    },
+    {
+        "sample_id": 154363251128275,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the process of nuclear fission work?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 148189868003330,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start a vegetable garden?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 155355773250118,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main beliefs of Hinduism?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 149182390125173,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the tallest building in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 156348295371961,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who wrote the novel 'To Kill a Mockingbird'?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 150174912246016,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I change the oil in a motorcycle?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 157340817493804,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the main principles of the scientific method?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 151167434367859,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and thoroughly",
+        "user_input": "What is the process of mitosis?",
+        "post_prompt": "Provide an accurate and detailed explanation"
+    },
+    {
+        "sample_id": 158333339615647,
+        "pre_prompt": "Answer the following query accurately and informatively",
+        "user_input": "How does the human immune system work?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 152159956489702,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I unclog a drain?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 159325861737490,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What were the main causes of the American Revolution?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 153152478611545,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "Who discovered penicillin?",
+        "post_prompt": "Provide a direct and succinct answer"
+    },
+    {
+        "sample_id": 160318383859333,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the process of cell division work?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 154144000733388,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start an online business?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 161310905981176,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main beliefs of Christianity?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 155136522855231,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the deepest point in the ocean?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 162303428103019,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who was the first European explorer to reach the Americas?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 156129044977074,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I fix a leaky faucet?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 164288472346705,
+        "pre_prompt": "Respond to the user's query accurately and thoroughly",
+        "user_input": "What are the main principles of the theory of relativity?",
+        "post_prompt": "Provide a comprehensive and well-informed explanation"
+    },
+    {
+        "sample_id": 165280994468548,
+        "pre_prompt": "The user will ask a question, and you should answer truthfully and concisely",
+        "user_input": "Who wrote the play 'Romeo and Juliet'?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 166273516590391,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the process of natural selection work?",
+        "post_prompt": "Provide a thorough and informative explanation"
+    },
+    {
+        "sample_id": 167266038712234,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I install new windows in a house?",
+        "post_prompt": "Give clear and detailed instructions"
+    },
+    {
+        "sample_id": 168258560834077,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What were the main causes of the Cold War?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 169251082955920,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the largest river in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 170243605077763,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who painted the artwork 'The Starry Night'?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 171236127199606,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start a podcast?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 172228649321449,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main principles of the Islamic faith?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 173221171443292,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and thoroughly",
+        "user_input": "What is the process of DNA replication?",
+        "post_prompt": "Provide an accurate and detailed explanation"
+    },
+    {
+        "sample_id": 174213693565135,
+        "pre_prompt": "Answer the following query accurately and informatively",
+        "user_input": "How does the process of plate tectonics work?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 175206215686978,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I repair drywall?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 176198737808821,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What were the main causes of the Industrial Revolution?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 177191259930664,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "Who was the first person to circumnavigate the globe?",
+        "post_prompt": "Provide a direct and succinct answer"
+    },
+    {
+        "sample_id": 178183782052507,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How do airplanes fly?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 179176304174350,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start a YouTube channel?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 180168826296193,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main beliefs of the Buddhist religion?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 181161348418036,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the largest ocean current in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 182153870539879,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "Who composed the opera 'The Marriage of Figaro'?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 183146392661722,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I build a deck?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 184138914783565,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the main principles of the democratic system of government?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 185131436905408,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and thoroughly",
+        "user_input": "What is the process of protein synthesis?",
+        "post_prompt": "Provide an accurate and detailed explanation"
+    },
+    {
+        "sample_id": 186123959027251,
+        "pre_prompt": "Answer the following query accurately and informatively",
+        "user_input": "How does the process of fossil fuel formation work?",
+        "post_prompt": "Give a comprehensive and well-informed response"
+    },
+    {
+        "sample_id": 187116481149094,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I change a light fixture?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 188109003270937,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What were the main events of the Renaissance?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 189101525392780,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "Who wrote the novel 'Pride and Prejudice'?",
+        "post_prompt": "Provide a direct and succinct answer"
+    },
+    {
+        "sample_id": 190094047514623,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the process of gene expression work?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 191086569636466,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I start a blog?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 192079091758309,
+        "pre_prompt": "Address the user's query accurately and completely",
+        "user_input": "What are the main beliefs of the Jewish faith?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 193071613880152,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the highest mountain range in the world?",
+        "post_prompt": "Provide an accurate and detailed answer"
+    }
+]
