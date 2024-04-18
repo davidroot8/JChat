@@ -1,24 +1,37 @@
 import json
+import re
 
-def add_classification_field(filename):
-  """
-  This function reads a JSON file, adds a "classification" field with value "clean" to each item,
-  and writes the modified data back to a new JSON file.
-  """
-  # Read the JSON data
-  with open(filename, "r") as f:
-    data = json.load(f)
+# Open the input JSON file
+with open('input_data/no_robots.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
 
-  # Add "classification" field with "clean" value to each item
-  for item in data:
-    item["classification"] = "malicious"
+# Create a new list to store the modified data
+output_data = []
 
-  # Write the modified data to a new JSON file (filename + "_modified.json")
-  with open(f"./input_data/malicious_responses2.json", "w") as f:
-    json.dump(data, f, indent=4)
+# Modify the data
+for item in data:
+    user_input = item['user_input']
+    classification = item['classification']
+    prompt_id = item['prompt_id']
+    messages = item['messages']
+    category = item['category']
 
-# Example usage
-filename = "./input_data/malicious_responses1.json"  # Replace with your actual filename
-add_classification_field(filename)
+    # Extract the user input and assistant response from messages
+    user_input = messages[0]['content']
+    assistant_response = messages[1]['content']
 
-print(f"Classification field added to each item in {filename}_modified.json")
+    # Check for Unicode characters and skip if found
+    if not re.search(r'[\u0080-\uffff]', user_input) and not re.search(r'[\u0080-\uffff]', assistant_response):
+        # Create a new dictionary with the modified format
+        new_item = {
+            'prompt_id': prompt_id,
+            'user_input': user_input,
+            'assistant_response': assistant_response,
+            'classification': classification
+        }
+
+        output_data.append(new_item)
+
+# Write the modified data to a new JSON file
+with open('input_data/no_robots1.json', 'w') as file:
+    json.dump(output_data, file, indent=2)

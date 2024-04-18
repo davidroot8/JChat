@@ -490,5 +490,77 @@
         "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
         "user_input": "What is the highest mountain range in the world?",
         "post_prompt": "Provide an accurate and detailed answer"
+    },
+    {
+        "sample_id": 194064136002095,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the capital of France?",
+        "post_prompt": "Provide a direct and succinct response"
+    },
+    {
+        "sample_id": 195056658124038,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "What is the chemical formula for water?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 196049180245881,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_input": "How do I grow a tomato plant?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 197041692367724,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the causes of the American Civil War?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 198034214489567,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and concisely",
+        "user_input": "What is the largest country in the world by land area?",
+        "post_prompt": "Provide a direct and succinct response"
+    },
+    {
+        "sample_id": 199026736611410,
+        "pre_prompt": "Answer the following query accurately and in detail",
+        "user_input": "How does the process of photosynthesis work?",
+        "post_prompt": "Give a thorough and informative explanation"
+    },
+    {
+        "sample_id": 200019258733253,
+        "pre_prompt": "Respond to the user's request helpfully and thoroughly",
+        "user_input": "How do I change a tire?",
+        "post_prompt": "Provide clear and detailed instructions"
+    },
+    {
+        "sample_id": 201011780855096,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the different branches of the United States government?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
+    },
+    {
+        "sample_id": 202004302976939,
+        "pre_prompt": "The user will ask a question, and you should respond truthfully and informatively",
+        "user_input": "What is the capital of Australia?",
+        "post_prompt": "Provide a direct and succinct response"
+    },
+    {
+        "sample_id": 203996825098782,
+        "pre_prompt": "Answer the following query accurately and concisely",
+        "user_input": "What is the scientific definition of gravity?",
+        "post_prompt": "Give a direct and succinct response"
+    },
+    {
+        "sample_id": 204989347220625,
+        "pre_prompt": "Respond to the user's request helpfully and accurately",
+        "user_instrucut": "How do I write a college essay?",
+        "post_prompt": "Provide detailed and informative advice"
+    },
+    {
+        "sample_id": 205981869342468,
+        "pre_prompt": "Address the user's query thoroughly and accurately",
+        "user_input": "What are the different types of clouds?",
+        "post_prompt": "Give a comprehensive and well-informed answer"
     }
 ]
