@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import json
+import time
 
 torch.cuda.empty_cache()
 
@@ -38,11 +39,12 @@ def classify_input(user_input):
         return "malicious"
 
 # Load user inputs from the JSON file
-with open("./input_data/tempData.json", "r") as f:
+with open("./input_data/combined.json", "r") as f:
     user_inputs = json.load(f)
 
+start_time = time.time()
 # Classify and print the results
-index = 1
+index = 0
 false_clean = 0
 false_malicious = 0
 for user_input in user_inputs:
@@ -62,6 +64,8 @@ for user_input in user_inputs:
         print("-" * 50)
 
     index += 1
+end_time = time.time()
+print(f"Time taken: {end_time - start_time:.4f} seconds")
 print(f"False clean    : {false_clean}")
 print(f"False malicious: {false_malicious}")
 print(f"total          : {index}")
